@@ -26,7 +26,9 @@ p{
     right: 10px;
     bottom: 10px;
 }
-
+#linke{
+  color: white;
+}
 .pagina{
     background-image: url('../img/fondo4.png'); /*Ruta relativa*/
     background-size: cover;
@@ -116,6 +118,7 @@ input{
     background-attachment: fixed;
     text-align: center;
     margin-left: 35%;
+    color: white;
 }
 p{
     color: white;
