@@ -1,0 +1,244 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+}
+p{
+    font-size: 20px;
+    text-align: justify;
+    color: blue;
+}
+
+#parrafo2{
+    background-color: goldenrod;
+}
+
+.destacado{
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 25px;
+   text-align: justify;
+   background-color: tomato; 
+   color: white;
+}
+
+
+#fijo{
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
+
+.pagina{
+    background-image: url('../img/fondo4.png'); /*Ruta relativa*/
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+#nombre{
+    color: white;
+    font-size: 60px;
+    font-family: fantasy;
+    /*background-color: #5c6bc0;*/
+    /*background-color: rgb(red, green, blue);*/
+    background-color: rgba(0, 0, 0,0.3);
+}
+
+#subtitulo{
+    color: yellowgreen;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 150px;
+    /*margin-left: 100px;*/  /*Esto es para mover a la derecha */ 
+}
+
+#correo{
+    background-color: tomato;
+    /*display: block;*/
+}
+
+/*Aquí detallo el CSS de mi pagina de contacto.html */
+.titulo{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    /*text-align: center;*/
+
+}
+
+label{
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+input{
+    color: blue;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Detallo el CSS del Formulario*/
+/*Un elemento en bloque, posee: largo - ancho -relleno - borde - margen*/
+.cajaFormulario{
+    background-color: rgba(122, 200, 130, 0.3);
+    width: 30%;    /*Unidades de medidas en css:  px - em - rem  - % */
+    height: 540px;
+    /*padding: arriba - abajo - izquierda - derecha;*/
+    padding: 20px;
+    border: red 5px double;
+    /*margin: arriba - abajo - izquierda - derecha ;*/
+    margin-left: 240px;
+    margin-top: 20px;
+    text-align: center;
+}
+#imagenes{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    color: white;
+    background: rgba(0, 0, 0, 0.491);
+}
+#botones{
+    width: 30%;
+    height: 30%;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    margin-left: 35%;
+}
+p{
+    color: white;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+/*----------------------------------------------*/
+#bodyContacto{
+    font-size: 1.9rem;
+    background-image: url(../img/fondo4.png);
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  .form{
+    width: 80%;
+    min-width: 300px;
+    background: rgba(0, 0, 0, 0.491);
+    margin: auto;
+    margin-top: 50px;
+    padding: 20px;
+    color:aliceblue;
+  }
+  
+  h2{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+    color: aliceblue;
+    padding-bottom: 16px;
+    font-weight: 500;
+  }
+  .form__input{
+    width: 100%;
+    height: 45px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.7);
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #2756c265;
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+    color: aliceblue;
+  }
+  .form__text{
+    width: 100%;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.7);
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #2756c265;
+    color: #fff;
+  
+  }
+  .form__text::placeholder{
+    font-size: 1.4rem;
+  }
+  .form__label{
+    font-size: 1.4rem;
+    display: block;
+    font-weight: 300;
+  }
+  .enviar{
+    width: 100%;
+    height: 50px;
+    background: rgba(0, 0, 0, 0.7);
+    border: none;
+    outline: none;
+    padding: 10px;
+    color: aliceblue;
+    background: #2756c2;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin: 20px 0 20px 0;
+    cursor: pointer;
+    transition: all .5s ease;
+  }
+  .enviar:hover{
+    background: #092f86;
+  
+  }
+  
+  .barra {
+    color: aliceblue;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+  }
+  
+  
+  .barraRedes {
+    background:  rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    text-align: center;
+  }
+  
+  #Siguenos{
+    font-size: 1.5em;
+    margin: 0;
+    color: aliceblue;
+  }
+  
+  .barraRedes img {
+    margin: 5px;
+  }
+  
+  
+  .icon_1_i{
+      float: right;
+  }
+  
+  
+  #parrafo{
+      color: white;
+  }
+  
+
+  h1{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+    color: aliceblue;
+    padding-bottom: 16px;
+    font-weight: 500;
+  }
+
